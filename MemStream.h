@@ -23,9 +23,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #ifndef MemStream_h
 #define MemStream_h
 
+#include <Arduino.h>
 #include <inttypes.h>
 #include <Stream.h>
-#include <avr/pgmspace.h>
 
 class MemStream : public Stream
 {
